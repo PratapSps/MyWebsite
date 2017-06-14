@@ -325,35 +325,62 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
+.pki {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: pki 2s ease;
+  	-webkit-animation: pki 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.ssh {
+  	width: 85%;
+  	-moz-animation: ssh 2s ease;
+  	-webkit-animation: ssh 2s ease;
+}
+.vuln {
+  	width: 80%;
+  	-moz-animation: vuln 2s ease;
+  	-webkit-animation: vuln 2s ease;
+}
+.firewall {
+  	width: 75%;
+  	-moz-animation: firewall 2s ease;
+  	-webkit-animation: firewall 2s ease;
+}
+.threat {
+  	width: 70%;
+  	-moz-animation: threat 2s ease;
+  	-webkit-animation: threat 2s ease;
+}
+.venafi {
+  	width: 80%;
+  	-moz-animation: venafi 2s ease;
+  	-webkit-animation: venafi 2s ease;
+}
+.qualys {
+  	width: 70%;
+  	-moz-animation: qualys 2s ease;
+  	-webkit-animation: qualys 2s ease;
+}
+.linux {
+  	width: 80%;
+  	-moz-animation: linux 2s ease;
+  	-webkit-animation: linux 2s ease;
+}
+.java{
+  	width: 85%;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
+}
+
+.python{
+  	width: 85%;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
+}
+
+.qa{
+  	width: 95%;
+  	-moz-animation: qa 2s ease;
+  	-webkit-animation: qa 2s ease;
 }
 
 @-moz-keyframes photoshop {
