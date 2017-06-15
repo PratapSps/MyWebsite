@@ -1,7 +1,7 @@
 $(function($){
 
 	$("form").submit(function(event) {
-
+		$('#image-loader').show()
 		event.preventDefault();
 
 		$.ajax({
@@ -19,10 +19,13 @@ $(function($){
 			$("#email").val("");
 			$("#subject").val("");
 			$("#message").val("");
-			document.getElementById("success").innerHTML="Your message was sent, thank you!"
+			
+			document.getElementById("success").innerHTML="Your message was sent, thank you!";
+			$('#image-loader').hide();
 			// alert("Message Sent!");
 		}).fail(function(){
-			document.getElementById("failed").innerHTML="Failed to sent email. Please try later."
+			document.getElementById("failed").innerHTML="Failed to sent email. Please try later.";
+			$('#image-loader').hide();
 		});
 	});
 
