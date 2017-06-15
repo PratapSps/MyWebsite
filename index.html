@@ -855,31 +855,31 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form  action="",method="post" id="contactForm" name="contactForm">
+               <form  method="POST" id="mailform" onsumbit="validateForm()">
 					<fieldset>
 
                   <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
+						   <label for="name">Name <span class="required">*</span></label>
+						   <input type="name" value="" size="35" id="name" name="name" required placeholder="Name">
                   </div>
 
                   <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+						   <label for="email">Email <span class="required">*</span></label>
+						   <input type="email" value="" size="35" id="email" name="email" required placeholder="Email">
                   </div>
 
                   <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+						   <label for="subject">Subject<span class="required">*</span></label>
+						   <input type="subject" value="" size="35" id="subject" name="subject" required placeholder="Subject">
                   </div>
 
                   <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <label for="message">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="message" name="message" required placeholder="Message"></textarea>
                   </div>
 
                   <div>
-                     <button class="submit">Submit</button>
+                     <button class="submit" type="submit">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif">
                      </span>
@@ -929,8 +929,8 @@
          <div class="twelve columns">
 
             <ul class="social-links">
-               <li><a href="https://www.linkedin.com/in/survya/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://github.com/PratapSps"><i class="fa fa-github" ></i></a></li>
+               <li><a href="https://www.linkedin.com/in/survya/", target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/PratapSps", target="_blank"><i class="fa fa-github" ></i></a></li>
             </ul>
 
             <ul class="copyright">
@@ -947,7 +947,7 @@
 
    <!-- Java Script
    ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
@@ -956,6 +956,7 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+   <script src="js/mail.js"></script>
 
 </body>
 
