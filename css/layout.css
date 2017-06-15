@@ -1067,15 +1067,15 @@ call-to-action .button {
 	font-size: 13px;
 }
 #message-warning, #message-success {
-   display: none;
-	background: #0F0F0F;
+   
+
 	padding: 24px 24px;
 	margin-bottom: 36px;
    width: 65%;
    margin-left: 26%;
 }
-#message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-warning { color: #FA0303; }
+#message-success { color: #2EF609; }
 
 #message-warning i,
 #message-success i {

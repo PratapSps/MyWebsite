@@ -1,20 +1,28 @@
-(function validateForm(){
+$(function($){
 
-	("mailform").submit(function(event) {
+	$("form").submit(function(event) {
 
 		event.preventDefault();
 
-		validateForm.ajax({
-			url:"https://formspree.io/singh.survya@gmail.com",
-			method:"POST",
+		$.ajax({
+	    url: "https://formspree.io/singh.survya@gmail.com",
+	    method: "POST",
 	    data: {
-	    	name: validateForm("#name").val(),
-	    	email: validateForm("#email").val(),
-	    	subject: validateForm("#subject").val(),
-	    	message: validateForm("#message").val()
+	    	name: $("#name").val(),
+	    	email: $("#email").val(),
+	    	subject: $("#subject").val(),
+	    	message: $("#message").val()
 	    },
 	    dataType: "json"
-			
+		}).done(function(){
+			$("#name").val("");
+			$("#email").val("");
+			$("#subject").val("");
+			$("#message").val("");
+			document.getElementById("success").innerHTML="Your message was sent, thank you!"
+			// alert("Message Sent!");
+		}).fail(function(){
+			document.getElementById("failed").innerHTML="Failed to sent email. Please try later."
 		});
 	});
 
