@@ -588,8 +588,17 @@ ul#nav li.current a { color: #F06000; }
 /* e. Certificates Section
 /* ------------------------------------------------------------------ */
 
+
 #certificates {
-   background: #ebeeee;
+   background: #1F1F1F url(../images/certificates.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
    padding-top: 90px;
    padding-bottom: 60px;
 }
