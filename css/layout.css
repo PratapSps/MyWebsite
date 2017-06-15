@@ -539,24 +539,24 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* popup modal */
-.popup-modal {
+.popup-model {
 	max-width: 550px;
 	background: #fff;
 	position: relative;
 	margin: 0 auto;
 }
-.popup-modal .description-box { padding: 12px 36px 18px 36px; }
-.popup-modal .description-box h4 {
+.popup-model .description-box { padding: 12px 36px 18px 36px; }
+.popup-model .description-box h4 {
    font: 15px/24px 'opensans-bold', sans-serif;
 	margin-bottom: 12px;
    color: #111;
 }
-.popup-modal .description-box p {
+.popup-model .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
    color: #A1A1A1;
    margin-bottom: 12px;
 }
-.popup-modal .description-box .categories {
+.popup-model .description-box .categories {
    font: 11px/21px 'opensans-light', sans-serif;
    color: #A1A1A1;
    text-transform: uppercase;
@@ -564,23 +564,23 @@ ul#nav li.current a { color: #F06000; }
    display: block;
    text-align: left;
 }
-.popup-modal .description-box .categories i {
+.popup-model .description-box .categories i {
    margin-right: 8px;
 }
-.popup-modal .link-box {
+.popup-model .link-box {
    padding: 18px 36px;
    background: #111;
    text-align: left;
 }
-.popup-modal .link-box a {
+.popup-model .link-box a {
    color: #fff;
 	font: 11px/21px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
-.popup-modal a.popup-modal-dismiss { margin-left: 24px; }
+.popup-model a:hover {	color: #00CCCC; }
+.popup-model a.popup-model-dismiss { margin-left: 24px; }
 
 
 
