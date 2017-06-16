@@ -383,6 +383,12 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: qa 2s ease;
 }
 
+.macros{
+  	width: 75%;
+  	-moz-animation: qa 2s ease;
+  	-webkit-animation: qa 2s ease;
+}
+
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
