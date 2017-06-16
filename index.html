@@ -27,7 +27,7 @@
 	<link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
-
+   <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
    <!-- Script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
@@ -47,6 +47,12 @@
   ga('create', 'UA-101107757-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+
+<script type="text/javascript">
+    var host = "survya.com";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
 </script>
 
 </head>
