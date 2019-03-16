@@ -325,60 +325,60 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.pki {
-  	width: 80%;
+.soc{
+  	width: 85%;
   	-moz-animation: pki 2s ease;
   	-webkit-animation: pki 2s ease;
 }
-.ssh {
+.tia {
   	width: 85%;
   	-moz-animation: ssh 2s ease;
   	-webkit-animation: ssh 2s ease;
 }
-.vuln {
-  	width: 80%;
+.sih {
+  	width: 90%;
   	-moz-animation: vuln 2s ease;
   	-webkit-animation: vuln 2s ease;
 }
-.firewall {
-  	width: 75%;
+.tipa {
+  	width: 80%;
   	-moz-animation: firewall 2s ease;
   	-webkit-animation: firewall 2s ease;
 }
-.threat {
-  	width: 70%;
+.sst {
+  	width: 85%;
   	-moz-animation: threat 2s ease;
   	-webkit-animation: threat 2s ease;
 }
-.venafi {
+.ast {
   	width: 80%;
   	-moz-animation: venafi 2s ease;
   	-webkit-animation: venafi 2s ease;
 }
-.qualys {
+.ids {
   	width: 70%;
   	-moz-animation: qualys 2s ease;
   	-webkit-animation: qualys 2s ease;
 }
-.linux {
+.ppt {
   	width: 80%;
   	-moz-animation: linux 2s ease;
   	-webkit-animation: linux 2s ease;
 }
-.java{
+.linux{
   	width: 85%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
 
 .python{
-  	width: 85%;
+  	width: 80%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
 
-.qa{
-  	width: 95%;
+.sda{
+  	width: 75%;
   	-moz-animation: qa 2s ease;
   	-webkit-animation: qa 2s ease;
 }
