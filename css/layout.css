@@ -327,48 +327,48 @@ ul#nav li.current a { color: #F06000; }
 
 .soc{
   	width: 85%;
-  	-moz-animation: pki 2s ease;
-  	-webkit-animation: pki 2s ease;
+  	-moz-animation: soc 2s ease;
+  	-webkit-animation: soc 2s ease;
 }
 .tia {
   	width: 85%;
-  	-moz-animation: ssh 2s ease;
-  	-webkit-animation: ssh 2s ease;
+  	-moz-animation: tia 2s ease;
+  	-webkit-animation: tia 2s ease;
 }
 .sih {
   	width: 90%;
-  	-moz-animation: vuln 2s ease;
-  	-webkit-animation: vuln 2s ease;
+  	-moz-animation: sih 2s ease;
+  	-webkit-animation: sih 2s ease;
 }
 .tipa {
   	width: 80%;
-  	-moz-animation: firewall 2s ease;
-  	-webkit-animation: firewall 2s ease;
+  	-moz-animation: tipa 2s ease;
+  	-webkit-animation: tipa 2s ease;
 }
 .sst {
   	width: 85%;
-  	-moz-animation: threat 2s ease;
-  	-webkit-animation: threat 2s ease;
+  	-moz-animation: sst 2s ease;
+  	-webkit-animation: sst 2s ease;
 }
 .ast {
   	width: 80%;
-  	-moz-animation: venafi 2s ease;
-  	-webkit-animation: venafi 2s ease;
+  	-moz-animation: ast 2s ease;
+  	-webkit-animation: ast 2s ease;
 }
 .ids {
-  	width: 70%;
-  	-moz-animation: qualys 2s ease;
-  	-webkit-animation: qualys 2s ease;
+  	width: 75%;
+  	-moz-animation: ids 2s ease;
+  	-webkit-animation: ids 2s ease;
 }
 .ppt {
   	width: 80%;
-  	-moz-animation: linux 2s ease;
-  	-webkit-animation: linux 2s ease;
+  	-moz-animation: ppt 2s ease;
+  	-webkit-animation: ppt 2s ease;
 }
 .linux{
   	width: 85%;
-  	-moz-animation: java 2s ease;
-  	-webkit-animation: java 2s ease;
+  	-moz-animation: linux 2s ease;
+  	-webkit-animation: linux 2s ease;
 }
 
 .python{
@@ -379,14 +379,14 @@ ul#nav li.current a { color: #F06000; }
 
 .sda{
   	width: 75%;
-  	-moz-animation: qa 2s ease;
-  	-webkit-animation: qa 2s ease;
+  	-moz-animation: sda 2s ease;
+  	-webkit-animation: sda 2s ease;
 }
 
 .macros{
   	width: 75%;
-  	-moz-animation: qa 2s ease;
-  	-webkit-animation: qa 2s ease;
+  	-moz-animation: macros 2s ease;
+  	-webkit-animation: macros 2s ease;
 }
 
 @-moz-keyframes photoshop {
